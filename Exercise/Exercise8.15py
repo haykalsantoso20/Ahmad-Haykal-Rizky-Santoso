@@ -1,0 +1,7 @@
+import PrintingFunction
+
+unprinted_designs = ['casing ponsel', 'liontin robot', 'dodecahedron']
+completed_models = []
+
+PrintingFunction.print_models(unprinted_designs, completed_models)
+PrintingFunction.show_completed_models(completed_models)
